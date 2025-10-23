@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # 3rd party:
     "adminsortable2",
+    "ckeditor",
     # Local apps:
     "pages",
     "places",
