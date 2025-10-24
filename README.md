@@ -21,6 +21,7 @@ Django backend for an interactive map application. Frontend based on [where-to-g
 - WYSIWYG editor for HTML content
 - Environment-based configuration
 - Media file serving
+- Bulk data import - load places from JSON URLs with automatic image downloading
 
 ## Quick Start
 
@@ -38,4 +39,7 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+
+# 3. Load sample data
+python manage.py load_place "https://raw.githubusercontent.com/devmanorg/where-to-go-frontend/master/places/moscow_legends.json"
 ```
