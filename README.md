@@ -2,6 +2,8 @@
 
 Django backend for an interactive map application. Frontend based on [where-to-go-frontend](https://github.com/devmanorg/where-to-go-frontend).
 
+🌳 Live demo: https://xelpix.pythonanywhere.com/
+
 ## Backend Tech Stack
 
 - **Python 3.10** + **Django 4**
